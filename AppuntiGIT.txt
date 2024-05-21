@@ -1,0 +1,2 @@
+git init -> Crea una Repository iniziale
+git status -> verifica lo stato della repository locale
