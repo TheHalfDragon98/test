@@ -1,2 +1,19 @@
-git init -> Crea una Repository iniziale
-git status -> verifica lo stato della repository locale
+#Fase iniziale
+git config --global user.email "Inserire email" -> imposta la mail
+git config --global user.name "Inserire nome" -> imposta il nome
+git config --global --list -> Stampa una lista di variabili globali di git
+
+#check status repository
+git status -> "Verifica lo stato della repository locale"
+
+#Clone Repository remota
+git clone <Link della Repository>
+
+#init Repository locale
+git init -> "Crea una Repository iniziale"
+
+#Gestione repository locale
+git add nomefile -> "Traccia il file nominato"
+git add . -> "Traccia tutti i file nella cartella"
+
+git commit -m "Messaggio" -> Per Salvare tutti i file nella Repository locale
